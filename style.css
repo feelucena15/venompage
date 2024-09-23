@@ -1,0 +1,36 @@
+body {
+    background: rgb(0, 0, 0);
+    color: red;
+    margin: 0px;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 0, 0);
+    padding: 30px;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+.titulo-video {
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+img {
+    height: 300px;
+}
+
+.fila-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+
+}
